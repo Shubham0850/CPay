@@ -9,9 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@solana/buffer-layout": "^4.0.0",
+    "@solana/pay": "^0.2.2",
+    "@solana/web3.js": "^1.59.1",
+    "bignumber.js": "^9.1.0",
+    "bip39": "^3.0.4",
+    "bootstrap": "^5.2.1",
+    "bs58": "^5.0.0",
+    "crypto-js": "^4.1.1",
+    "crypto-price-getter": "^1.0.2",
+    "js-cookie": "^3.0.1",
     "next": "12.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.3.0",
+    "react-icons": "^4.4.0",
+    "sass": "^1.54.9"
   },
   "devDependencies": {
     "eslint": "8.23.0",
