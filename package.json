@@ -11,7 +11,9 @@
   "dependencies": {
     "@solana/buffer-layout": "^4.0.0",
     "@solana/pay": "^0.2.2",
+    "@solana/spl-token": "^0.3.4",
     "@solana/web3.js": "^1.59.1",
+    "alchemy-sdk": "^2.0.3",
     "bignumber.js": "^9.1.0",
     "bip39": "^3.0.4",
     "bootstrap": "^5.2.1",
@@ -25,6 +27,7 @@
     "react-dom": "18.2.0",
     "react-hot-toast": "^2.3.0",
     "react-icons": "^4.4.0",
+    "react-qrcode-logo": "^2.8.0",
     "sass": "^1.54.9"
   },
   "devDependencies": {
