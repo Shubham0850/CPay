@@ -14,10 +14,10 @@ export default function Nfts() {
     const solanaConnection = new Connection(rpcEndpoint);
     const walletToQuery = 'YOUR_PUBLIC_KEY'; 
 
-    const accounts = await solanaConnection.getParsedProgramAccounts(
-        TOKEN_PROGRAM_ID,   //SPL Token Program, new PublicKey("TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA")
-        {filters: filters}
-    );
+    // const accounts = await solanaConnection.getParsedProgramAccounts(
+    //     TOKEN_PROGRAM_ID,   //SPL Token Program, new PublicKey("TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA")
+    //     {filters: filters}
+    // );
 
     // const settings = {
     //     apiKey: 'reQtsFausbKHWD1Ftepwblht7PEhdbAA', // Replace with your Alchemy API Key.
