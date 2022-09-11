@@ -7,10 +7,10 @@ export default function Nav() {
     <div className="nav">
       <Container fluid className="section section--big">
         <Row className="align-items-center">
-          <Col  className="text-center" >
+          <Col  className="" >
             <img src="/logo2.png" alt="logo" width={"250px"}/>
           </Col>
-          <Col className="hide-on-phone ">
+          <Col className="hide-on-phone nav-items">
             <div className="nav__links">
               <Link href="#">Start</Link>
             </div>

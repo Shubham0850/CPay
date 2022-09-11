@@ -239,3 +239,9 @@ ion-icon {
 p, h3, h1, h2{
     margin: 0 !important;
 }
+
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
